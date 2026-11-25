@@ -9,3 +9,21 @@ export const GAME_CONFIG = {
   },
   COLORS: { CYAN: 0x00f3ff, MAGENTA: 0xff007f, AMBER: 0xffbe0b, GREEN: 0x00ff88, PURPLE: 0xb5179e },
 };
+export const CURRENCY = {
+  STORAGE_KEY: 'neon_vanguard_credits',
+  ENEMY_REWARD: {
+    stalker: 15,
+    artillery: 25,
+    juggernaut: 75,
+  },
+  WAVE_CLEAR_BONUS: 50,
+};
+
+export const LEVELING = {
+  STORAGE_KEY: 'neon_vanguard_progression',
+  BASE_XP_REQUIRED: 100,
+  XP_SCALING: 1.35,
+  XP_PER_SCORE_FACTOR: 0.25,
+  MAX_LEVEL_HP_BONUS: 5,
+};
+  
